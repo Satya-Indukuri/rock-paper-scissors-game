@@ -62,3 +62,15 @@
     color: white;
     border-radius: 10px;
 }
+
+#reset-button{
+    margin: 30px;
+    background-color: purple;
+    color: white;
+    font-weight: 300;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}

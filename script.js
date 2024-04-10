@@ -7,7 +7,9 @@ const compScore = document.querySelector("#comp-score");
 const TieScore = document.querySelector("#tie-score");
 const message = document.querySelector("#msg");
 const msgContainer = document.querySelector(".msg-container");
+const resetButton = document.querySelector("#reset-button");
 
+//console.log(resetButton);
 // console.log(msgContainer);
 // console.log(allChoices);
 // console.log(userScore);
@@ -81,4 +83,9 @@ allChoices.forEach((choice) =>{
         console.log(`user choice - ${userChoice}`);
         playGame(userChoice);
     })
+})
+
+
+resetButton.addEventListener("click", ()=>{
+    location.reload();
 })
