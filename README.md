@@ -1,1 +1,3 @@
 This is a Rock-paper-scissors game which can be played on any device(responsive website).
+![image](https://github.com/Satya-Indukuri/rock-paper-scissors-game/assets/122500172/718d12bd-44e8-4d95-9c40-f2f7ba2678df)
+This is how the interface of game looks like...
