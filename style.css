@@ -19,8 +19,10 @@
 
 .choices{
     width: 80%;
-    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap:30px;
@@ -46,15 +48,18 @@
 
 .score-board{
     font-weight: bold;
-    height:150px;
     font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap:50px;
 }
 
 .msg-container{
-
-    height:25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: purple;
     padding: 20px;
     font-weight: 500;
